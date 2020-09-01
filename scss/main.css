@@ -1,0 +1,74 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: black 4px solid;
+  border-radius: 100%;
+  background-color: red;
+  -webkit-box-shadow: 5px 5px 2px rgba(1, 255, 1, 0.479);
+          box-shadow: 5px 5px 2px rgba(1, 255, 1, 0.479);
+}
+
+.two {
+  border: black 4px dotted;
+  border-radius: 30%;
+  background-color: orange;
+  -webkit-box-shadow: 5px 5px 2px rgba(0, 0, 255, 0.253);
+          box-shadow: 5px 5px 2px rgba(0, 0, 255, 0.253);
+}
+
+.three {
+  border: black 4px double;
+  border-radius: 10%;
+  background-color: yellow;
+  -webkit-box-shadow: 5px 5px 2px rgba(255, 1, 255, 0.692);
+          box-shadow: 5px 5px 2px rgba(255, 1, 255, 0.692);
+}
+
+.four {
+  border: black 4px solid;
+  border-radius: 100%;
+  background-color: green;
+  -webkit-box-shadow: 5px 5px 2px rgba(255, 0, 0, 0.418);
+          box-shadow: 5px 5px 2px rgba(255, 0, 0, 0.418);
+}
+
+.five {
+  border: black 4px dotted;
+  border-radius: 30%;
+  background-color: blue;
+  -webkit-box-shadow: 5px 5px 2px rgba(255, 94, 0, 0.828);
+          box-shadow: 5px 5px 2px rgba(255, 94, 0, 0.828);
+}
+
+.six {
+  border: black 4px double;
+  border-radius: 10%;
+  background-color: purple;
+  -webkit-box-shadow: 5px 5px 2px rgba(255, 255, 0, 0.424);
+          box-shadow: 5px 5px 2px rgba(255, 255, 0, 0.424);
+}
+
+.container {
+  border: solid red 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0;
+}
+/*# sourceMappingURL=main.css.map */

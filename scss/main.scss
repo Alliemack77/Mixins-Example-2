@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin box ($style, $radius, $bg-color, $shadow-color) {
+    border: black 4px $style;
+    border-radius: $radius;
+    background-color: $bg-color;
+    box-shadow: 5px 5px 2px $shadow-color;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    @include box (solid, 100%, red, rgba(1, 255, 1, 0.479))
+}
+
+.two {
+    @include box (dotted, 30%, orange, rgba(0, 0, 255, 0.253))
+}
+
+.three {
+    @include box (double, 10%, yellow, rgba(255, 1, 255, 0.692))
+}
+
+.four {
+    @include box (solid, 100%, green, rgba(255, 0, 0, 0.418))
+}
+
+.five {
+    @include box (dotted, 30%,blue, rgba(255, 94, 0, 0.828))
+}
+
+.six {
+    @include box (double, 10%,purple, rgba(255, 255, 0, 0.424))
+}
+
+.container {
+    border: solid red 2px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+
+
+
+
+
+
+
